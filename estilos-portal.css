@@ -1,0 +1,33 @@
+.logo{
+    max-width: 200px;
+    padding: 10px;
+    
+}
+.header{
+    background-color: red;
+}
+
+.main{
+    background-color: blue;
+   
+}
+
+.informacoes-filme{
+
+    color: white;
+    
+    
+}
+.item1{
+    background-color: black;
+}
+.video1{
+    background-color: chartreuse;
+}
+.lancamentos{
+    color: white;
+  
+}
+.footer{
+    background-color: green;
+}
