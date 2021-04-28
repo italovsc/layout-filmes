@@ -4,21 +4,27 @@
     
 }
 .header{
-    background-color: rgb(175, 74, 74);
+    background-color: rgb(85, 22, 22);
 }
 
 .main{
-    background-color: rgb(69, 105, 89);
+    background-color: rgb(27, 29, 28);
    
 }
 .menu-cabecalho > a{
     color: white;
 }
-.destaques > a{
-    color: rgb(34, 31, 31);
+.destaques{
+    color: rgb(177, 177, 177);
 }
-.categorias > a{
-    color: rgb(34, 31, 31);
+
+.avaliacoes{
+    color: rgb(177, 177, 177);
+}
+
+.video1{
+    width: 100%;
+    height: 100%;
 }
 
 .informacoes-filme{
@@ -26,6 +32,10 @@
     color: white;
     
     
+}
+
+.novidades{
+    color: rgb(177, 177, 177);
 }
 
 .noticias{
@@ -37,22 +47,59 @@
  max-width: 120px;
  padding: 20px;
 }
-.card-img-top{
 
-    margin-right: 15px;
-}
 
 .item1{
-    background-color:  rgb(69, 105, 89);
+    background-color:  rgb(5, 53, 68);
+}
+.item2{
+    background-color:  rgb(5, 53, 68);
+}
+.item3{
+    background-color:  rgb(5, 53, 68);
+}
+.item4{
+    background-color:  rgb(5, 53, 68);
 }
 
 .lancamentos{
     color: white;
   
 }
+
+.twtt{
+    margin: 10px ;
+}
+
+.fb{
+    margin: 10px;
+}
+
+.ig{
+    margin: 10px;
+}
+
 .footer{
-    background-color: rgb(175, 74, 74);
+    background-color: rgb(85, 22, 22);
 }
 .rodape{
     color: white;
+}
+@media screen and (max-width:330px){
+
+    .logo2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .video{
+        height: 464px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .search-bar{
+        display: none;
+    }
 }
