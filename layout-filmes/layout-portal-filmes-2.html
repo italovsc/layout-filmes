@@ -14,20 +14,12 @@
 
 <body>
     <header class="container header">
-        <div class="row">
+        <div class="row d-flex justify-content-between">
             <div class="col-lg-2 col-sm-12">
                 <a href="#"><img src="imgs-portal-filmes/logo_size.jpg" class="logo"></a>
             </div>
-            <div class="col-lg-8 col-sm-12 d-flex align-items-center">
-                <nav class="nav menu-cabecalho">
-                    <a class="nav-link active fw-bold" aria-current="page" href="#">Lançamentos</a>
-                    <a class="nav-link fw-bold" href="#">Em Destaque</a>
-                    <a class="nav-link fw-bold" href="#">Avaliações</a>
-                    <a class="nav-link fw-bold" href="#">Entrevistas & Making-of</a>
-                    <a class="nav-link fw-bold" href="#">Novidades</a>
-                </nav>
-            </div>
-            <div class="col-2 d-flex align-items-center">
+            
+            <div class="col-4 d-flex align-items-center">
                 <div class="input-group rounded search-bar">
                     <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
                         aria-describedby="search-addon" />
@@ -44,13 +36,27 @@
         </div>
 
     </header>
+    
 
     <main class="container main">
 
         <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <nav class="nav menu-cabecalho fs-4">
+                    <a class="nav-link active fw-bold" aria-current="page" href="#">Lançamentos</a>
+                    <a class="nav-link fw-bold" href="#">Em Destaque</a>
+                    <a class="nav-link fw-bold " href="#">Avaliações</a>
+                    <a class="nav-link fw-bold" href="#">Entrevistas & Making-of</a>
+                    <a class="nav-link fw-bold" href="#">Novidades</a>
+                </nav>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
             <div class="col-12">
                 <div class="d-flex justify-content-center">
-                    <h1 class="lancamentos">Lançamentos</h1>
+                    <h1 class= "titulos fw-bold">Lançamentos</h1>
                 </div>
             </div>
         </div>
@@ -318,7 +324,7 @@
 
         <div class="row">
 
-            <h1 class="destaques col-8">Em Destaque</h1>
+            <h1 class="titulos col-8">Em Destaque</h1>
 
             &nbsp;
 
@@ -387,7 +393,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="d-flex justify-content-start">
-                    <h1 class="avaliacoes">Últimas avaliações</h1>
+                    <h1 class="titulos">Últimas avaliações</h1>
                 </div>
             </div>
         </div>
@@ -513,7 +519,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="d-flex justify-content-start">
-                    <h1 class="avaliacoes">Entrevistas & Making-of</h1>
+                    <h1 class="titulos">Entrevistas & Making-of</h1>
                 </div>
             </div>
         </div>
@@ -574,7 +580,7 @@
 
         &nbsp;
 
-        <h1 class="novidades">Novidades</h1>
+        <h1 class="titulos">Novidades</h1>
 
         &nbsp;
 
@@ -635,10 +641,10 @@
         </div>
 
 
-        <div class="row">
+        <div class="row sobre">
 
 
-            <div class="card col-lg-6">
+            <div class="col-lg-6">
                 <h3>Sobre</h3>
                 <p>Este portal foi desenvolvido como parte da disciplina de Desenvolvimentos de Interfaces Web(DIW), da
                     PUC Minas,
@@ -646,7 +652,7 @@
                     relacionadas ao cinema.</p>
             </div>
 
-            <div class="card col-lg-6">
+            <div class="col-lg-6">
                 <h3>Editorial</h3>
                 <h6>Redação: Ítalo Victor</h6>
                 <h6>Pesquisa: Ítalo Victor</h6>
