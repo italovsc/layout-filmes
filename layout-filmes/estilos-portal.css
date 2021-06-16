@@ -14,8 +14,9 @@
 .menu-cabecalho > a{
     color: white;
 }
-.destaques{
+.titulos{
     color: rgb(177, 177, 177);
+    font-weight: bold;
 }
 
 .avaliacoes{
@@ -64,7 +65,7 @@
 
 .lancamentos{
     color: white;
-  
+  font-size: 30px;
 }
 
 .twtt{
@@ -84,6 +85,10 @@
 }
 .rodape{
     color: white;
+}
+
+.sobre{
+    color: rgb(177, 177, 177);
 }
 
 @media screen and (max-width:330px){
@@ -116,3 +121,4 @@
         display: none;
     }
 }
+
